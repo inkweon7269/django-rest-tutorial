@@ -5,3 +5,4 @@ class AddressesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Addresses
         fields = ['name', 'phoneNumber', 'address', 'created']
+
